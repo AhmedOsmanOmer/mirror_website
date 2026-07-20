@@ -25,6 +25,15 @@ export default {
 
     'footer.tagline': 'بطاقات أعمال عاكسة فاخرة، تعكسك أنت.',
     'footer.rights': 'جميع الحقوق محفوظة.',
+    'footer.contact.title': 'تواصل معنا',
+    'footer.contact.address': '4/88 Reflection Lane, South Yarra VIC 3141, أستراليا',
+    'footer.contact.phone': '+61 3 9555 0148',
+    'footer.contact.email': 'hello@mirrorcards.com.au',
+    'footer.links.title': 'روابط سريعة',
+    'footer.hours.title': 'ساعات العمل',
+    'footer.hours.weekdays': 'الإثنين–الجمعة: ٩ص–٥م بتوقيت شرق أستراليا',
+    'footer.hours.weekend': 'السبت–الأحد: مغلق',
+    'footer.abn': 'الرقم التجاري ABN 12 345 678 901',
 
     // Landing
     'landing.hero.eyebrow': 'بطاقات أعمال مرآة فاخرة',

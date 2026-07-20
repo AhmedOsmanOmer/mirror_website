@@ -25,6 +25,15 @@ export default {
 
     'footer.tagline': 'Premium mirror business cards, made to reflect you.',
     'footer.rights': 'All rights reserved.',
+    'footer.contact.title': 'Contact',
+    'footer.contact.address': '4/88 Reflection Lane, South Yarra VIC 3141, Australia',
+    'footer.contact.phone': '+61 3 9555 0148',
+    'footer.contact.email': 'hello@mirrorcards.com.au',
+    'footer.links.title': 'Quick links',
+    'footer.hours.title': 'Business hours',
+    'footer.hours.weekdays': 'Mon–Fri: 9am–5pm AEST',
+    'footer.hours.weekend': 'Sat–Sun: Closed',
+    'footer.abn': 'ABN 12 345 678 901',
 
     // Landing
     'landing.hero.eyebrow': 'Premium mirror business cards',

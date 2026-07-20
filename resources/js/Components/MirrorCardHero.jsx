@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, useMotionValue, useReducedMotion, useSpring } from 'framer-motion';
 
-const AUTO_FLIP_INTERVAL_MS = 2000;
+const AUTO_FLIP_INTERVAL_MS = 4500;
 
 export default function MirrorCardHero() {
     const stageRef = useRef(null);
@@ -87,7 +87,7 @@ export default function MirrorCardHero() {
                     transition={
                         shouldReduceMotion
                             ? { duration: 0.3, ease: 'easeOut' }
-                            : { type: 'spring', stiffness: 90, damping: 14, mass: 1 }
+                            : { duration: 1.4, ease: [0.45, 0, 0.15, 1] }
                     }
                 >
                     {/* Mirror face */}
