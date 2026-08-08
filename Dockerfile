@@ -1,5 +1,5 @@
 # الخطوة 1: نبدأ من صورة فيها PHP 8.2 جاهزة
-FROM php:8.2-fpm as php
+FROM php:8.4-fpm as php
 
 # الخطوة 2: نثبت الأدوات اللي محتاجينها + نثبت Node.js (عشان نبني React)
 RUN apt-get update && apt-get install -y \
